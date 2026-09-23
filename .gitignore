@@ -1,0 +1,25 @@
+
+---
+
+## 📄 .gitignore (adequado para Android/Kotlin)
+
+```gitignore
+# Arquivos e pastas de build
+/build
+*.iml
+
+# Configurações locais da IDE
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# Arquivo de propriedades locais
+local.properties
+
+# Cache e temporários
+.gradle/
+captures/
+
+# Arquivos temporários de SO
+.DS_Store
+Thumbs.db
